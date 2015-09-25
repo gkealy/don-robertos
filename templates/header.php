@@ -4,6 +4,7 @@
   <a href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"></a>
   </div>
   <div class="container">
+    <?php /*
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only"><?= __('Toggle navigation', 'sage'); ?></span>
@@ -12,6 +13,7 @@
         <span class="icon-bar"></span>
       </button>
     </div>
+    */ ?>
 
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
@@ -20,5 +22,6 @@
       endif;
       ?>
     </nav>
+    <div class="row segway"></div>
   </div>
 </header>
