@@ -1,4 +1,6 @@
 
+<?php /* WP Bootstrap Carousel - Old Front Page
+
 <div id="carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-banner">
   	<img class="carousel-banner-logo"src="<?= get_template_directory_uri(); ?>/dist/images/carousel-banner-logo.png" alt="Don Robertos Michelada Mix">
@@ -63,3 +65,9 @@
   </a>
 </div>
 -->
+
+WP Bootstrap Carousel - Old Front Page - END */ ?>
+
+<?php while (have_posts()) : the_post(); ?>
+  <?php get_template_part('templates/content', 'page'); ?>
+<?php endwhile; ?>
