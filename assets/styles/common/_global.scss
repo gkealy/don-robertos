@@ -54,6 +54,15 @@ body {
 	z-index: 100;
 }
 
+.sidebar-banner-retailers {
+  margin-left: -10px;
+  margin-bottom: 30px;
+	height: 339px;
+	width: 322px;
+	background-color: #684b22;
+	z-index: 100;
+}
+
 #menu-viva-michelada {
   background: none;
   a {
@@ -62,7 +71,11 @@ body {
 }
 
 .attachment-post-thumbnail {
+  display: none;
   margin-left: -15px;
+  @media (min-width: $screen-lg-min) {
+    display: block;
+  }
 }
 
 .page-header {
