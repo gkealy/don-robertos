@@ -33,4 +33,4 @@ function excerpt_more() {
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 
 // Declare WooCommerce support
-// add_theme_support('woocommerce');
+add_theme_support('woocommerce');

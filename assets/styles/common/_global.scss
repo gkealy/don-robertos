@@ -1,4 +1,4 @@
-body {
+.home, .page, .blog, .single, .archive {
   background: #990000 url('../images/bkgd.jpg') no-repeat 50% 0;
   .content.content-bkgd {
     margin-left: 20px;
@@ -13,37 +13,10 @@ body {
   }
 }
 
-.textwidget {
-  a {
-    font-weight: 500;
-    text-align: center;
-  }
-}
+@import "../widgets/textwidget";
 
-.woocommerce {
-  button.button.alt {
-    border-radius: 0px;
-    background-color: $brand-primary;
-  }
-  a.button {
-    border-radius: 0px;
-    background-color: $brand-primary;
-    color: #fff;
-    font-weight: 400;
-  }
-  a.button:hover {
-    border-radius: 0px;
-    background-color: $brand-primary;
-    color: #fff;
-    font-weight: 400;
-  }
-  .woocommerce-message {
-    border-top-color: $brand-primary;
-  }
-  .woocommerce-message::before {
-    color: $brand-primary;
-  }
-}
+@import "../woocommerce/buttons";
+@import "../woocommerce/messages";
 
 .sidebar-banner {
   margin-left: -30px;
