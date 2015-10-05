@@ -2,7 +2,29 @@
 
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss";
 // endbower
 
 @import "common/_global";
