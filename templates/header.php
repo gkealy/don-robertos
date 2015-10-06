@@ -1,7 +1,7 @@
 <header class="banner" role="banner">
   <div class="container">
   <?php /* <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a> */ ?>
-  <a href="<?= esc_url(home_url('/')); ?>"><img src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"></a>
+  <a href="<?= esc_url(home_url('/')); ?>"><img class="header-logo" src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"></a>
   </div>
   <div class="container">
     <?php /*

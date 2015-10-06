@@ -28,13 +28,29 @@
 // endbower
 
 @import "common/_global";
+
 @import "components/_buttons";
 @import "components/_comments";
 @import "components/_forms";
 @import "components/_grid";
 @import "components/_wp-classes";
+@import "components/_nav";
+@import "components/_carousel";
+
 @import "layouts/_header";
 @import "layouts/_sidebar";
 @import "layouts/_footer";
 @import "layouts/_pages";
 @import "layouts/_posts";
+
+@import "bootstrap/_variables";
+
+@import "widgets/_textwidget";
+
+@import "woocommerce/_buttons";
+@import "woocommerce/_messages";
+
+@import "wordpress/_attachments";
+
+@import "misc/_viva-nav";
+@import "misc/_page-header";

@@ -1,0 +1,7 @@
+.attachment-post-thumbnail {
+  display: none;
+  margin-left: -15px;
+  @media (min-width: $screen-lg-min) {
+    display: block;
+  }
+}

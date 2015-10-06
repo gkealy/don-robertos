@@ -1,0 +1,61 @@
+#carousel {
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	z-index: -2;
+	border-bottom: 11px solid #684b22;
+}
+
+// Optional captions
+// -----------------------------
+// Hidden by default for smaller viewports
+.carousel-caption {
+  width: 40%;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  z-index: 10;
+  padding-top: 10px;
+  // padding-bottom: 20px;
+  color: $carousel-caption-color;
+  text-align: left;
+  text-shadow: $carousel-text-shadow;
+  h1 {
+  	text-weight: 900;
+  }
+  small {
+  	color: $brand-primary;
+  }
+  & .btn {
+    text-shadow: none; // No shadow for button elements in carousel-caption
+  }
+}
+
+.carousel-banner {
+	position: absolute;
+	right: 80px;
+	top: 80px;
+	height: 360px;
+	width: 250px;
+	background-color: #684b22;
+	z-index: 100;
+	border-radius: $border-radius-large;
+}
+
+.carousel-banner-logo {
+	position: relative;
+	top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-banner-buttons {
+	text-align: center;
+	position: relative;
+	top: 30px;
+	.btn {
+		margin-top: 11px;
+	}
+}

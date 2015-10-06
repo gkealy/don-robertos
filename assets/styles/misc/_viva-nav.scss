@@ -1,0 +1,10 @@
+#menu-viva-michelada {
+  display: none;
+  background: none;
+  a {
+    color: $brand-primary;
+  }
+  @media (min-width: $screen-sm-min) {
+    display: block;
+  }
+}
