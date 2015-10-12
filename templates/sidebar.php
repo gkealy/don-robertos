@@ -1,4 +1,4 @@
-<?php if ( is_page("What is Michelada?") || is_page("Who is Don Roberto?") || is_page("History of Michelada") ) : ?>
+<?php if ( !is_front_page() && !is_home() ) : ?>
   <div class="sidebar-banner visible-lg">
   	<img class="img-responsive sidebar-banner-logo"src="<?= get_template_directory_uri(); ?>/dist/images/carousel-banner-logo.png" alt="Don Robertos Michelada Mix">
   	<div class="sidebar-banner-buttons">
