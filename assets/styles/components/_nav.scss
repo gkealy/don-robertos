@@ -131,6 +131,9 @@
     li > a {
     	font-weight: 700;
     	padding-top: 11px;
+      &:hover {
+        color: white;
+      }
     }
   }
 
